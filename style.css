@@ -227,7 +227,7 @@ h3 {
     content: '';
     display: block;
     position: absolute;
-    width: 100px;
+    width: 120px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -242,7 +242,7 @@ h3 {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 100px;
+    width: 120px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
