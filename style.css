@@ -537,6 +537,7 @@ h3 {
     border: solid 1px rgba(51, 51, 51, .5);
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgb(51, 51, 51, .5);
+    transition: .3s;
 }
 
 .project-2 {
@@ -547,6 +548,7 @@ h3 {
     border: solid 1px rgba(51, 51, 51, .5);
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgba(51, 51, 51, .5);
+    transition: .3s;
 }
 
 .project-3 {
@@ -557,6 +559,7 @@ h3 {
     border: solid 1px rgba(51, 51, 51, .5);
     border-radius: 5px;
     box-shadow: 3px 3px 8px rgb(51, 51, 51, .5);
+    transition: .3s;
 }
 
 /* SOCIAL */
