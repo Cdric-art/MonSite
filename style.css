@@ -95,10 +95,8 @@ h3 {
 
 .description {
     max-width: 600px;
-    height: 300px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto 20px auto;
+    padding-top: 50px;
     color: #000;
     text-align: center;
 }
@@ -109,23 +107,88 @@ h3 {
     font-size: 2rem;
 }
 
-.p-description {
+.description-card {
+    border: solid 2px rgba(51, 51, 51, 0.123);
+    border-radius: 15px;
+    box-shadow: 3px 3px 8px rgb(51, 51, 51, .3);
+    margin: 20px 10px 20px 10px; 
+    transition: .1s;
+}
+
+.description-card:hover {
+    transform: scale(1.3);
+}
+
+.description-card-img img {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.description-card-text {
     font-style: italic;
     line-height: 1.5rem;
-    padding-top: 50px;
+    padding: 0 20px 10px 20px;
+}
+
+.description-card-title h4 {
+    font-size: 1.2rem;
+    letter-spacing: .3;
+    text-transform: uppercase;
+    margin: 30px 0 20px 0;
+}
+
+.description-card-list {
+    margin: 20px auto 10px auto;
+}
+
+.description-card-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto 10px auto;
+}
+
+.description-card-list ul li {
+    padding: 10px 7px 10px 7px;
+}
+
+.description-card-list strong {
+    margin: 0 5px;
+}
+
+.description-card-list .download {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.description-card-list .download a {
+    color: #000;
+    font-weight: bold;
+}
+
+.description-card-list .download a::after {
+    content: '>>>';
+    display: inline-block;
+    font-weight: 400;
+    padding-left: 5px;
+    color: rgba(255, 115, 0, 0.699);
 }
 
 /* PROFESSIONNAL SKILLS */
 
 .skills {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
+.inner-skills {
+    margin-bottom: 30px;
+}
 
 .skills h3 {
     font-size: 2.0rem;
-    padding: 50px 0;
+    padding: 40px 0 0px 0;
     text-align: center;
 }
 
@@ -570,7 +633,7 @@ h3 {
 
 #contact h3 {
     font-size: 2rem;
-    padding: 50px 0;
+    padding: 50px 0 10px 0;
     text-align: center;
 }
 
@@ -735,8 +798,30 @@ h3 {
         padding: 0;
     }
 
+    /* Description */
+
     .p-description {
         line-height: 1.7rem;
+    }
+
+    .inner-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .card-none {
+        border: none;
+        box-shadow: none;
+    }
+
+    .description {
+        max-width: 1150px;
+    }
+
+    .description-card {
+        width: 380px;
     }
 
     /* SKILLS */
@@ -751,7 +836,7 @@ h3 {
     }
 
     .inner-skills-list {
-        margin: 0 50px;
+        margin: 20px 0 50px 0;
     }
 
     /* TOOLS IMG*/
