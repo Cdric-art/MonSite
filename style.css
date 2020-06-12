@@ -871,7 +871,7 @@ aside {
 @media only screen and (min-width: 500px) {
     /* ABOUT HEADER */
     .about {
-        height: 350px;
+        height: 450px;
         margin-bottom: 30px;
     }
 
