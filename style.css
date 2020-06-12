@@ -856,25 +856,16 @@ aside {
         height: 300px;
         z-index: 1000;
     }
-    /*
+    
     .sidenav a {
-        display: block;
-        text-align: center;
-        margin: 0;
-        padding: 10px 0;
-        font-weight: bold;
-        transition: .3s;
+        padding: 10px 0 5px 0;
     }
-    */
-    /*
+    
     .sidenav img {
-        display: block;
-        margin: 30px auto 0 auto;
-        padding: 10px;
-        width: 150px;
-        height: 150px;
-        border-radius: 100px;
-    }*/
+        margin-top: 0;
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media only screen and (min-width: 500px) {
