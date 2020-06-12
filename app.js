@@ -1,3 +1,15 @@
+// ASIDE 
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+
+
 // SCROLL ANIMATE
 
 const ratio = .2;
