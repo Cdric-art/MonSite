@@ -267,6 +267,16 @@ aside {
     margin-bottom: 30px;
 }
 
+.skills-bg1 {
+    background: url(img/poly-green.png) center center / cover no-repeat;
+    background-size: 420px 420px;
+}
+
+.skills-bg2 {
+    background: url(img/poly-blue.png) center center / cover no-repeat;
+    background-size: 420px 420px;
+}
+
 .skills h3 {
     font-size: 2.0rem;
     padding: 40px 0 0px 0;
@@ -285,7 +295,6 @@ aside {
     font-size: 1.3rem;
     padding: 0 0 5px 0;
 }
-
 
 
 /* PROGRESS-BAR 1 */
