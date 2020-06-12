@@ -292,6 +292,44 @@ aside {
     padding: 0 0 5px 0;
 }
 
+/* CITATION */
+
+.citation-inner {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.citation-inner h5 {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0 auto;
+    width: 220px;
+    padding: 10px;
+    border-top: solid 3px rgba(51, 51, 51, .5);
+    border-left: solid 3px rgba(51, 51, 51, .5);
+    border-radius: 30px;
+    box-shadow: -4px -4px 0px #d5d5d5, -7px -7px 0px rgba(0, 0, 0, 0.2);
+    letter-spacing: .09em;
+    text-shadow: -4px -4px 0px #d5d5d5, -7px -7px 0px rgba(0, 0, 0, 0.2);
+}
+
+.citation-inner p {
+    font-size: 2.5rem;
+    text-align: right;
+    margin: 0 auto;
+    width: 330px;
+    padding: 10px;
+    border-bottom: solid 3px rgba(51, 51, 51, .5);
+    border-right: solid 3px rgba(51, 51, 51, .5);
+    border-radius: 30px;
+    box-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+    letter-spacing: .09rem;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
 
 /* PROGRESS-BAR 1 */
 
@@ -1030,6 +1068,33 @@ aside {
         background-color:#e96d7e60;
         border-radius: 25px;
     }
+
+    /* CITATION */
+
+.citation-inner {
+    font-size: 3.2rem;
+}
+
+.container-citation {
+    margin: 100px auto;
+    width: 1000px;
+}
+
+.citation-inner h5 {
+    text-align: left;
+    margin-left: 170px;
+    margin-bottom: 20px;
+    width: 260px;
+    padding: 20px;
+}
+
+.citation-inner p {
+    text-align: right;
+    margin-right: 170px;
+    margin-top: 20px;
+    width: 580px;
+    padding: 20px;
+}
 
     /* SKILLS */
 
