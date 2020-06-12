@@ -296,8 +296,6 @@ aside {
 .citation-inner {
     font-family: 'Dancing Script', sans-serif;
     font-weight: 700;
-    font-size: 3.5rem;
-    font-weight: bold;
     margin: 50px 0;
 }
 
@@ -896,7 +894,6 @@ aside {
         border: none;
         box-shadow: none;
         margin: 0;
-        padding: 0;
     }
 
     .description-card {
@@ -1033,7 +1030,6 @@ aside {
         border: none;
         box-shadow: none;
         margin: 0;
-        padding: 0;
     }
 
     .card-none::after {
