@@ -176,12 +176,11 @@ aside {
     font-size: 2rem;
 }
 
-.card-none {
-    border: none;
+.description .inner-card .card-none {
+    border: 0;
     box-shadow: none;
-    margin: 0;
     padding: 0;
-    background-image: none !important;
+    background-image: none;
 }
 
 .description-card {
