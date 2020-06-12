@@ -840,6 +840,7 @@ h3 {
 
     .description-card {
         width: 380px;
+        background-size: none; 
     }
 
     .card-none {
