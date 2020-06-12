@@ -25,6 +25,8 @@ h3 {
 /* TOPBAR */
 
 .topbar {
+    display: flex;
+    justify-content: space-between;
     color: #FFF;
     background-color: rgba(51, 51, 51, 1);
     font-size: .875rem;
@@ -34,9 +36,12 @@ h3 {
 }
 
 .logo h1 {
-    margin-bottom: 15px;
     font-weight: bold;
     letter-spacing: 0.5rem;
+}
+
+.navbar {
+    display: none;
 }
 
 
@@ -59,6 +64,68 @@ h3 {
     background-color:rgba(255, 255, 255, .95);
     color: black;
 }
+
+/* ASIDE */
+
+aside {
+    margin: auto 0;
+}
+
+.sidenav {
+    height: 420px;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(51, 51, 51, .9);
+    transition: 0.5s;
+    z-index: 900;
+}
+
+.sidenav a {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.sidenav a:hover {
+    text-decoration: underline;
+}
+
+.sidenav img {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.sidenav .closebtn {
+    text-align: left;
+    font-size: 30px;
+    color: #FFF;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.burger-button {
+    padding: 0 8px;
+    font-size: 28px;
+    border: solid 1px #FFF;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.burger-button:hover {
+    color: rgba(0, 0, 0, .8);
+    background-color: #FFF;
+}
+
 
 /* ABOUT HEADER */
 
@@ -749,6 +816,8 @@ h3 {
 
 @media only screen and (max-width: 500px) {
 
+    /* FORM */
+
     .inner-form-row input {
         width: 150px;
     }
@@ -762,6 +831,8 @@ h3 {
         filter: grayscale(0);
     }
 
+    /* ABOUT CARD */
+
     .card-none {
         border: none;
         box-shadow: none;
@@ -772,6 +843,38 @@ h3 {
     .description-card {
         width: 300px;
     }
+
+    /* TOP BAR */
+
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    /* ASIDE */
+
+    .sidenav {
+        height: 300px;
+        z-index: 1000;
+    }
+    /*
+    .sidenav a {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 10px 0;
+        font-weight: bold;
+        transition: .3s;
+    }
+    */
+    /*
+    .sidenav img {
+        display: block;
+        margin: 30px auto 0 auto;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }*/
 }
 
 @media only screen and (min-width: 500px) {
@@ -812,12 +915,22 @@ h3 {
         z-index: 1;
     }
 
+    .navbar {
+        display: block;
+    }
+
     .topbar .logo h1 {
         margin: 0;
     }
 
     .navbar a {
         margin: 0 5px;
+    }
+
+    /* ASIDE */
+
+    aside {
+        display: none;
     }
 
     /* ABOUT HEADER */
