@@ -196,10 +196,6 @@ aside {
     transition: .1s;
 }
 
-.description-card:hover {
-    transform: scale(1.1);
-}
-
 .description-card-img img {
     height: 250px;
     width: 250px;
@@ -649,6 +645,8 @@ aside {
 
 .inner-tools {
     margin: 50px 0;
+    background: url(img/poly-red.png) center center / cover no-repeat;
+    background-size: 450px 450px;
 }
 
 .inner-tools-list {
@@ -680,6 +678,21 @@ aside {
     font-size: 2rem;
     text-align: center;
     padding: 50px 0;
+}
+
+.inner-projects-bg1 {
+    background: url(img/poly-blue.png) center center / cover no-repeat;
+    background-size: 420px 420px;
+}
+
+.inner-projects-bg2 {
+    background: url(img/poly-red.png) center center / cover no-repeat;
+    background-size: 420px 420px;
+}
+
+.inner-projects-bg3 {
+    background: url(img/poly-green.png) center center / cover no-repeat;
+    background-size: 420px 420px;
 }
 
 .project-1 {
@@ -972,14 +985,50 @@ aside {
 
     .description-card {
         width: 380px;
-        background-size: none; 
+    }
+
+    .after {
+        transform: none;
     }
 
     .card-none {
+        transform: none;
         border: none;
         box-shadow: none;
         margin: 0;
         padding: 0;
+    }
+
+    .card-none::after {
+        content: '<body> i need to lose weight';
+        position: absolute;
+        top: 105%;
+        right: 22%;
+        font-weight: bold;
+        font-size: 2.4rem;
+        height: 200px;
+        width: 170px;
+        overflow: hidden;
+        color: rgba(51, 51, 51, 1);
+        background-color:#6de9d960;
+        border-radius: 25px;
+    }
+
+    .card-none::before {
+        content: ' //my life cycle while (&me.isAlive()) { &me.eat(); &me.sleep(); &me.code();';
+        position: absolute;
+        top: 160%;
+        left: 18%;
+        font-weight: bold;
+        text-align: left;
+        font-size: 2.3rem;
+        padding-left: 10px;
+        height: 280px;
+        width: 290px;
+        overflow: hidden;
+        color: rgba(51, 51, 51, 1);
+        background-color:#e96d7e60;
+        border-radius: 25px;
     }
 
     /* SKILLS */
@@ -998,6 +1047,10 @@ aside {
     }
 
     /* TOOLS IMG*/
+
+    .inner-tools {
+        background-size: 800px 800px;
+    }
     
     .tools img {
         height: 120px;
@@ -1012,6 +1065,12 @@ aside {
         height: 240px;
         width: 426px;
     }
+
+    .inner-projects-bg1,
+    .inner-projects-bg2,
+    .inner-projects-bg3 {
+        background-size: 800px 800px;
+    }
     
 }
 
@@ -1023,10 +1082,10 @@ aside {
         justify-content: space-around;
     }
 
-    .project-1,
-    .project-2,
-    .project-3 {
-        height: 240px;
-        width: 426px;
+
+    .inner-projects-bg1,
+    .inner-projects-bg2,
+    .inner-projects-bg3 {
+        background: none;
     }
 }
