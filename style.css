@@ -72,7 +72,7 @@ aside {
 }
 
 .sidenav {
-    height: 420px;
+    height: 530px;
     width: 0;
     position: fixed;
     top: 0;
@@ -191,7 +191,7 @@ aside {
     border-radius: 15px;
     box-shadow: 3px 3px 8px rgb(51, 51, 51, .3);
     margin: 20px 10px 20px 10px;
-    background: url(img/bg-card.jpg) center center / cover fixed;
+    background: url(img/card-img.png) center center / cover fixed;
     background-size: 1000px auto; 
     transition: .1s;
 }
