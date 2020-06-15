@@ -883,7 +883,7 @@ aside {
         filter: grayscale(0);
     }
 
-    /* ABOUT CARD */
+    /* DESCRIPTION CARD */
 
     .card-none {
         margin: 0;
@@ -993,7 +993,7 @@ aside {
         padding-left: 250px;
     }
 
-    /* Description */
+    /* DESCRIPTION CARD */
 
     .p-description {
         line-height: 1.7rem;
