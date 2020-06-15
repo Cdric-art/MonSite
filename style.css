@@ -191,7 +191,7 @@ aside {
     box-shadow: 3px 3px 8px rgb(51, 51, 51, .3);
     margin: 20px 10px 20px 10px;
     background: url(img/card-img.png) center center / cover fixed;
-    background-size: 1000px auto; 
+    background-size: 980px auto; 
     transition: .1s;
 }
 
