@@ -183,6 +183,14 @@ aside {
     font-size: 2rem;
 }
 
+.inner-card {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
 .inner-card .card-none {
     border: none;
     box-shadow: none;
@@ -191,14 +199,14 @@ aside {
 }
 
 .description-card {
-    display: inline-block;
     width: 380px;
     border: solid 2px rgba(51, 51, 51, 0.123);
     border-radius: 15px;
     box-shadow: 3px 3px 8px rgb(51, 51, 51, .3);
     margin: 20px 10px 20px 10px;
-    background: url(img/card-img.png) center center / cover fixed;
-    background-size: 620px auto; 
+    background: url(img/card-img-fixed.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .description-card-img img {
@@ -1027,14 +1035,6 @@ aside {
 
     .p-description {
         line-height: 1.7rem;
-    }
-
-    .inner-card {
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-top: 50px;
     }
 
     .description {
