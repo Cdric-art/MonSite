@@ -299,12 +299,12 @@ aside {
 
 /* *** SOFT SKILLS *** */
 
-.soft-inner {
+.soft_inner {
     background: url(img/poly-red.png) center center / cover no-repeat;
     background-size: 420px 420px;
 }
 
-.soft-inner h5 {
+.soft_inner h5 {
     font-size: 1.3rem;
     font-weight: 400;
     text-align: center;
@@ -312,14 +312,14 @@ aside {
     padding: 10px 0;
 }
 
-.soft-inner>h5::before {
+.soft_inner>h5::before {
     content: '<';
     padding-left: 5px;
     font-size: 1.3rem;
     color: rgba(51, 51, 51, .6);
 }
 
-.soft-inner>h5::after {
+.soft_inner>h5::after {
     content: '/>';
     padding-right: 5px;
     font-size: 1.3rem;
@@ -794,8 +794,12 @@ aside {
 .legende {
     width: 256px;
     margin: 0 auto;
+    padding: 0 5px 5px 5px;
     text-align: center;
     font-style: italic;
+    border-bottom: solid 1px rgba(51, 51, 51, .5);
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgb(51, 51, 51, .5);
 }
 
 .project-1 {
@@ -1149,12 +1153,12 @@ aside {
 
     /* *** SOFT SKILL *** */
 
-    .soft-inner {
+    .soft_inner {
         background-size: 820px 820px;
         margin: 50px 0;
     }
 
-    .soft-inner h5 {
+    .soft_inner h5 {
         font-size: 1.5rem;
         letter-spacing: .5rem;
     }

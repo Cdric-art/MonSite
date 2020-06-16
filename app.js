@@ -41,3 +41,10 @@ $('[class*="project-"]').hover(function() {
   }, function() {
       $(this).removeClass('scaleof')
   });
+
+// ANIMATE SOFT SKILLS
+
+$('[class*="soft-"]').hover(function () {
+    $(this).fadeOut(100);
+    $(this).fadeIn(500);
+});
