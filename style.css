@@ -207,6 +207,7 @@ aside {
     background: url(img/card-img-fixed.png);
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .description-card-img img {
