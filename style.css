@@ -1019,7 +1019,7 @@ aside {
         content: '<body> i need to lose weight';
         position: absolute;
         top: 5%;
-        right: 0%;
+        right: 5%;
         font-weight: bold;
         font-size: 2.4rem;
         height: 200px;
@@ -1034,7 +1034,7 @@ aside {
         content: ' //my life cycle while (&me.isAlive()) { &me.eat(); &me.sleep(); &me.code();';
         position: absolute;
         bottom: 5%;
-        left: 0%;
+        left: 5%;
         font-weight: bold;
         text-align: left;
         font-size: 2.3rem;
