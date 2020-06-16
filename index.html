@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- TOPBAR AND NAVBAR -->
     <header id="home" class="header">
         <div class="topbar">
             <div class="logo">
@@ -23,6 +24,7 @@
                 <a href="#projects" class="projects">Projects</a>
                 <a href="#contact" class="contact">Contact</a>
             </nav>
+            <!-- ASIDE BAR WITH BURGER MENU -->
             <aside>
                 <div>
                     <span class="burger-button" onclick="openNav()">&#9776;</span>
@@ -39,6 +41,7 @@
         </div> 
     </header>
     <main>
+        <!-- SECTION 1, PHOTO, TITLE, LOCATION, MAIL --> 
         <section class="about">
             <div class="about-inner">
                 <h2 class="title reveal-2">EVRARD Cédric</h2>
@@ -48,9 +51,11 @@
                 </p>
             </div>
         </section>
+        <!-- DESCRIPTION, ABOUT ME, CV -->
         <section class="description">
             <h3 class="title-section reveal-2">About me</h3>
             <div class="inner-card">
+                <!-- CARD 1 PHOTO, ABOUT ME -->
                 <div class="description-card reveal-1">
                     <div class="description-card-img">
                         <img src="img/favicon.png" alt="photo">
@@ -65,8 +70,10 @@
                         </p>
                     </div>
                 </div>
+                <!-- CARD 2 AND 3 IN DISPLAY NONE FOR FLEX WRAP -->
                 <div class="description-card card-none"></div>
                 <div class="description-card card-none"></div>
+                <!-- CARD 4 PROFESSIONAL EXPERIENCES AND CV DOWNLOAD -->
                 <div class="description-card reveal-1">
                     <div class="description-card-title">
                         <h4>Professional experiences</h4>
@@ -91,13 +98,16 @@
                 </div>
             </div>
         </section>
+        <!-- CITATION -->
         <section>
             <div class="citation-inner">
                     <h5>Ma citation :</h5>
                     <p>' Ne passez pas à côté de ma candidature ! '</p>
             </div>
         </section>
+        <!-- PROFESSIONNAL SKILLS -->
         <section class="skills" id="skill">
+            <!-- PROGRESS BAR -->
             <h3 class="title-section reveal-1">Professionnal skills</h3>
             <div class="inner-skills reveal-2">
                 <div class="inner-skills-list skills-bg1">
@@ -129,6 +139,7 @@
                     </div>
                 </div>
             </div>
+            <!-- ICONS TOOLS -->
             <h3 class="title-section reveal-1">My Tools</h3>
             <div class="inner-tools reveal-2">
                 <div class="inner-tools-list">
@@ -163,6 +174,7 @@
                 </div>
             </div>
         </section>
+        <!-- PROJECTS GIF ANIME -->
         <section id="projects">
             <h3 class="title-section reveal-1">My projects</h3>
             <div class="inner-projects reveal-2">
@@ -177,8 +189,10 @@
                 </div>
             </div>
         </section>
+        <!-- CONTACT -->
         <section id="contact">
             <h3 class="title-section reveal-1">Contact</h3>
+            <!-- SOCIAL ICON LINKS-->
             <div class="social reveal-1">
                 <div class="social-icon">
                     <a href="https://www.linkedin.com/in/c%C3%A9dric-evrard-9a02091a8/" target="_blank">
@@ -196,6 +210,7 @@
                     </a>
                 </div>
             </div>
+            <!-- FORM CONTACT-->
             <div class="inner-form reveal-1">
                 <form action="#" method="post">
                     <div class="inner-form-row">
@@ -209,6 +224,15 @@
             </div>
         </section>
     </main>
+    <!-- UP ARROW -->
+    <section>
+        <div>
+            <a href="#home" class="up-arrow">
+                <i class="fas fa-angle-up"></i>
+            </a>
+        </div>
+    </section>
+    <!-- FOOTER -->
     <footer>
         <div class="botton-bar">
             <p>
@@ -219,6 +243,8 @@
             </p>
         </div>
     </footer>
+
+    <script src="https://kit.fontawesome.com/6026130747.js" crossorigin="anonymous"></script>
     <script src="jquery-3.5.1.min.js"></script>
     <script src="app.js"></script>
 </body>

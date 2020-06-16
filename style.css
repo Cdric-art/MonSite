@@ -23,7 +23,9 @@ h3 {
     letter-spacing: 0.5rem;
 }
 
-/* TOPBAR */
+/* ****** RESPONSIVE MOBILE FIRST ****** */
+
+/* *** TOPBAR NAVBAR *** */
 
 .topbar {
     display: flex;
@@ -66,7 +68,7 @@ h3 {
     color: black;
 }
 
-/* ASIDE */
+/* *** ASIDE *** */
 
 aside {
     margin: auto 0;
@@ -128,7 +130,7 @@ aside {
 }
 
 
-/* ABOUT HEADER */
+/* *** HEADER *** */
 
 .about {
     color: #000;
@@ -161,7 +163,7 @@ aside {
     text-decoration: underline;
 }
 
-/* ABOUT ME */
+/* *** DESCRIPTION CARD CV *** */
 
 .description {
     max-width: 600px;
@@ -251,7 +253,7 @@ aside {
     color: rgba(255, 115, 0, 0.699);
 }
 
-/* PROFESSIONNAL SKILLS */
+/* *** PROFESSIONNAL SKILLS *** */
 
 .skills {
     max-width: 800px;
@@ -291,7 +293,7 @@ aside {
     padding: 0 0 5px 0;
 }
 
-/* CITATION */
+/* *** CITATION *** */
 
 .citation-inner {
     font-family: 'Dancing Script', sans-serif;
@@ -323,7 +325,7 @@ aside {
 }
 
 
-/* PROGRESS-BAR 1 */
+/* *** PROGRESS-BAR *** 1 */
 
 .progress-bar1 { 
     width: 300px;
@@ -671,7 +673,7 @@ aside {
     background: -moz-linear-gradient(top, #48ebd5, rgb(0, 107, 93));
 }
 
-/* MY TOOLS */
+/* *** MY TOOLS *** */
 
 .inner-tools {
     margin: 50px 0;
@@ -702,7 +704,7 @@ aside {
     transform: scale(1.5);
 }
 
-/* PROJECTS */
+/* *** PROJECTS *** */
 
 #projects h3 {
     font-size: 2rem;
@@ -758,7 +760,7 @@ aside {
     transition: .3s;
 }
 
-/* SOCIAL */
+/* *** CONTACT *** */
 
 #contact {
     margin: 50px 0;
@@ -819,7 +821,17 @@ aside {
     color: #FFF;
 }
 
-/* FOOTER */
+/* *** Up ARROW *** */
+
+.up-arrow {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgba(51, 51, 51, .5);
+    font-size: 40px;
+}
+
+/* *** FOOTER *** */
 
 .botton-bar {
     display: flex;
@@ -836,7 +848,7 @@ aside {
     padding-top: 5px;
 }
 
-/* ANIMATION JS */
+/* ****** ANIMATION JS ****** */
 
 [class*="reveal-"] {
     opacity: 0;
@@ -868,7 +880,7 @@ aside {
 
 @media only screen and (max-width: 500px) {
 
-    /* FORM */
+    /* *** FORM *** */
 
     .inner-form-row input {
         width: 150px;
@@ -883,7 +895,7 @@ aside {
         filter: grayscale(0);
     }
 
-    /* DESCRIPTION CARD */
+    /* *** DESCRIPTION CARD *** */
 
     .card-none {
         margin: 0;
@@ -893,13 +905,13 @@ aside {
         width: 300px;
     }
 
-    /* TOP BAR */
+    /* *** TOP BAR *** */
 
     .logo h1 {
         font-size: 1.2rem;
     }
 
-    /* ASIDE */
+    /* *** ASIDE *** */
 
     .sidenav {
         height: 300px;
@@ -918,7 +930,9 @@ aside {
 }
 
 @media only screen and (min-width: 500px) {
-    /* ABOUT HEADER */
+    
+    /* *** HEADER *** */
+
     .about {
         height: 450px;
         margin-bottom: 30px;
@@ -936,12 +950,11 @@ aside {
         padding-top: 50px;
         padding-left: 200px;
     }
-
 }
 
 @media only screen and (min-width: 980px) {
 
-    /* TOPBAR */
+    /* *** TOPBAR NAVBAR *** */
 
     .topbar {
         display: flex;
@@ -967,13 +980,13 @@ aside {
         margin: 0 5px;
     }
 
-    /* ASIDE */
+    /* *** ASIDE *** */
 
     aside {
         display: none;
     }
 
-    /* ABOUT HEADER */
+    /* *** ABOUT HEADER *** */
 
     .about {
         height: 600px;
@@ -993,7 +1006,7 @@ aside {
         padding-left: 250px;
     }
 
-    /* DESCRIPTION CARD */
+    /* *** DESCRIPTION CARD *** */
 
     .p-description {
         line-height: 1.7rem;
@@ -1047,7 +1060,7 @@ aside {
         border-radius: 25px;
     }
 
-    /* CITATION */
+    /* *** CITATION *** */
 
     .citation-inner {
         font-size: 3.2rem;
@@ -1071,7 +1084,7 @@ aside {
         padding: 20px;
     }
 
-    /* SKILLS */
+    /* *** SKILLS *** */
 
     .skills {
         max-width: 1200px;
@@ -1086,7 +1099,7 @@ aside {
         margin: 20px 0 50px 0;
     }
 
-    /* TOOLS IMG*/
+    /* *** TOOLS IMG *** */
 
     .inner-tools {
         background-size: 800px 800px;
@@ -1097,7 +1110,7 @@ aside {
         width: 120px;
     }
 
-    /* PROJETCS */
+    /* *** PROJETCS *** */
 
     .project-1,
     .project-2,
@@ -1115,7 +1128,8 @@ aside {
 }
 
 @media only screen and (min-width: 1300px) {
-    /* PROJECTS */
+   
+    /* *** PROJECTS *** */
 
     .inner-projects {
         display: flex;
