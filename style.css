@@ -744,7 +744,7 @@ aside {
 .inner-tools {
     margin: 50px 0;
     background: url(img/poly-red.png) center center / cover no-repeat;
-    background-size: 450px 450px;
+    background-size: 500px 500px;
 }
 
 .inner-tools-list {
@@ -1201,12 +1201,13 @@ aside {
 
     .inner-skills-list {
         margin: 20px 0 50px 0;
+        background-size: 620px 620px;
     }
 
     /* *** TOOLS IMG *** */
 
     .inner-tools {
-        background-size: 800px 800px;
+        background-size: 900px 800px;
     }
     
     .tools img {
