@@ -173,6 +173,10 @@ aside {
     text-align: center;
 }
 
+.description h3 {
+    padding-bottom: 30px;
+}
+
 .title-section {
     text-transform: uppercase;
     text-decoration: overline;
@@ -276,7 +280,7 @@ aside {
 
 .skills h3 {
     font-size: 2.0rem;
-    padding: 40px 0 0px 0;
+    padding: 40px 0 30px 0;
     text-align: center;
 }
 
@@ -709,22 +713,35 @@ aside {
 #projects h3 {
     font-size: 2rem;
     text-align: center;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .inner-projects-bg1 {
+    height: 400px;
+    padding-top: 50px;
     background: url(img/poly-blue.png) center center / cover no-repeat;
-    background-size: 420px 420px;
+    background-size: 420px 320px;
 }
 
 .inner-projects-bg2 {
+    height: 400px;
+    padding-top: 50px;
     background: url(img/poly-red.png) center center / cover no-repeat;
     background-size: 420px 420px;
 }
 
 .inner-projects-bg3 {
+    height: 400px;
+    padding-top: 50px;
     background: url(img/poly-green.png) center center / cover no-repeat;
-    background-size: 420px 420px;
+    background-size: 420px 320px;
+}
+
+.legende {
+    width: 256px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: italic;
 }
 
 .project-1 {
@@ -763,12 +780,12 @@ aside {
 /* *** CONTACT *** */
 
 #contact {
-    margin: 50px 0;
+    margin: 0px 0 50px 0;
 }
 
 #contact h3 {
     font-size: 2rem;
-    padding: 50px 0 10px 0;
+    padding: 20px 0 10px 0;
     text-align: center;
 }
 
@@ -1124,6 +1141,12 @@ aside {
     .inner-projects-bg3 {
         background-size: 700px 700px;
     }
+
+    /* *** CONTACT *** */
+
+    #contact {
+        margin-top: 50px;
+    }
     
 }
 
@@ -1134,6 +1157,7 @@ aside {
     .inner-projects {
         display: flex;
         justify-content: space-evenly;
+        height: 500px;
     }
 
     .inner-projects-bg1,
