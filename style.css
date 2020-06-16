@@ -266,6 +266,91 @@ aside {
     color: rgba(255, 115, 0, 0.699);
 }
 
+/* *** CITATION *** */
+
+.citation-inner {
+    font-family: 'Dancing Script', sans-serif;
+    margin: 50px 0;
+}
+
+.citation-inner h5 {
+    font-size: 2rem;
+    text-align: left;
+    margin: 0 auto;
+    width: 220px;
+    padding: 10px;
+    border-top: solid 3px rgba(51, 51, 51, .9);
+    border-left: solid 3px rgba(51, 51, 51, .9);
+    border-radius: 30px;
+    letter-spacing: .09em;
+}
+
+.citation-inner p {
+    font-size: 2.5rem;
+    text-align: right;
+    margin: 0 auto;
+    width: 330px;
+    padding: 10px;
+    border-bottom: solid 3px rgba(51, 51, 51, .9);
+    border-right: solid 3px rgba(51, 51, 51, .9);
+    border-radius: 30px;
+    letter-spacing: .09rem;
+}
+
+/* *** SOFT SKILLS *** */
+
+.soft-inner {
+    background: url(img/poly-red.png) center center / cover no-repeat;
+    background-size: 420px 420px;
+}
+
+.soft-inner h5 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: .3rem;
+    padding: 10px 0;
+}
+
+.soft-inner>h5::before {
+    content: '<';
+    padding-left: 5px;
+    font-size: 1.3rem;
+    color: rgba(51, 51, 51, .6);
+}
+
+.soft-inner>h5::after {
+    content: '/>';
+    padding-right: 5px;
+    font-size: 1.3rem;
+    color: rgba(51, 51, 51, .6);
+}
+
+.soft-1 {
+    text-shadow: 0px 10px 2px rgba(150, 150, 150, 1);
+}
+
+.soft-2 {
+    text-shadow: 0px 6px 2px rgba(150, 150, 150, 1);
+}
+
+.soft-3 {
+    text-shadow: 0px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.soft-4 {
+    text-shadow: 0px -4px 2px rgba(150, 150, 150, 1);
+}
+
+.soft-5 {
+    text-shadow: 0px -6px 2px rgba(150, 150, 150, 1);
+}
+
+.soft-6 {
+    text-shadow: 0px -10px 2px rgba(150, 150, 150, 1);
+}
+
+
 /* *** PROFESSIONNAL SKILLS *** */
 
 .skills {
@@ -305,38 +390,6 @@ aside {
     font-size: 1.3rem;
     padding: 0 0 5px 0;
 }
-
-/* *** CITATION *** */
-
-.citation-inner {
-    font-family: 'Dancing Script', sans-serif;
-    margin: 50px 0;
-}
-
-.citation-inner h5 {
-    font-size: 2rem;
-    text-align: left;
-    margin: 0 auto;
-    width: 220px;
-    padding: 10px;
-    border-top: solid 3px rgba(51, 51, 51, .9);
-    border-left: solid 3px rgba(51, 51, 51, .9);
-    border-radius: 30px;
-    letter-spacing: .09em;
-}
-
-.citation-inner p {
-    font-size: 2.5rem;
-    text-align: right;
-    margin: 0 auto;
-    width: 330px;
-    padding: 10px;
-    border-bottom: solid 3px rgba(51, 51, 51, .9);
-    border-right: solid 3px rgba(51, 51, 51, .9);
-    border-radius: 30px;
-    letter-spacing: .09rem;
-}
-
 
 /* *** PROGRESS-BAR *** 1 */
 
@@ -649,7 +702,7 @@ aside {
     content: '';
     display: block;
     position: absolute;
-    width: 40px;
+    width: 10px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -664,7 +717,7 @@ aside {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 40px;
+    width: 10px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
@@ -1094,10 +1147,47 @@ aside {
         padding: 20px;
     }
 
+    /* *** SOFT SKILL *** */
+
+    .soft-inner {
+        background-size: 820px 820px;
+        margin: 50px 0;
+    }
+
+    .soft-inner h5 {
+        font-size: 1.5rem;
+        letter-spacing: .5rem;
+    }
+
+    .soft-1 {
+        margin-right: 100px;
+    }
+
+    .soft-2 {
+        margin-left: 200px;
+    }
+
+    .soft-3 {
+        margin-right: 200px;
+    }
+
+    .soft-4 {
+        margin-left: 300px;
+    }
+
+    .soft-5 {
+        margin-right: 300px;
+    }
+
+    .soft-6 {
+        margin-left: 100px;
+    }
+
     /* *** SKILLS *** */
 
     .skills {
         max-width: 1200px;
+        margin-bottom: 100px;
     }
 
     .inner-skills {
@@ -1122,11 +1212,19 @@ aside {
 
     /* *** PROJETCS *** */
 
+    .inner-projects {
+        margin-top: 50px;
+    }
+
     .project-1,
     .project-2,
     .project-3 {
         height: 240px;
         width: 426px;
+    }
+
+    .inner-projects-bg1 {
+        padding: 0;
     }
 
     .inner-projects-bg1,
@@ -1138,6 +1236,10 @@ aside {
     /* *** CONTACT *** */
 
     #contact {
+        margin-top: 20px;
+    }
+
+    .social {
         margin-top: 50px;
     }
     
