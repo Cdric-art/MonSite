@@ -861,19 +861,31 @@ aside {
 
 .inner-form-row {
     display: flex;
-    justify-content: space-between;
-    max-width: 550px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
     margin: 40px auto;
 }
 
 .inner-form-row input {
     height: 40px;
-    width: 220px;
-    padding-left: 5px;
-    margin: 0 auto;
+    width: 250px;
+    margin: 10px 10px;
+    padding-left: 7px;
     border: solid 1px rgba(51, 51, 51, .5);
     border-radius: 7px;
     box-shadow: 1px 1px rgba(51, 51, 51, .5);
+    overflow: auto;
+}
+
+.inner-form-row textarea {
+    width: 300px;
+    margin: 10px 10px;
+    padding-left: 7px;
+    border: solid 1px rgba(51, 51, 51, .5);
+    border-radius: 7px;
+    box-shadow: 1px 1px rgba(51, 51, 51, .5);
+    overflow: auto;
 }
 
 .inner-form-button {
@@ -955,16 +967,7 @@ aside {
 
 @media only screen and (max-width: 500px) {
 
-    /* *** FORM *** */
-
-    .inner-form-row input {
-        width: 150px;
-    }
-
-    .inner-form-button button {
-        width: 80px;
-        height: 35px;
-    }
+    /* *** TOOLS IMG *** */
 
     .tools img {
         filter: grayscale(0);
@@ -1099,7 +1102,7 @@ aside {
         content: '<body> i need to lose weight';
         position: absolute;
         top: 5%;
-        right: 5%;
+        right: 8%;
         font-weight: bold;
         font-size: 2.4rem;
         height: 200px;
@@ -1114,7 +1117,7 @@ aside {
         content: ' //my life cycle while (&me.isAlive()) { &me.eat(); &me.sleep(); &me.code();';
         position: absolute;
         bottom: 5%;
-        left: 5%;
+        left: 8%;
         font-weight: bold;
         text-align: left;
         font-size: 2.3rem;
