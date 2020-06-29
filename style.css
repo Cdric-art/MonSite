@@ -415,7 +415,7 @@ aside {
     content: '';
     display: block;
     position: absolute;
-    width: 260px;
+    width: 280px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -430,7 +430,7 @@ aside {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 260px;
+    width: 280px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
@@ -473,7 +473,7 @@ aside {
     content: '';
     display: block;
     position: absolute;
-    width: 120px;
+    width: 250px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -488,7 +488,7 @@ aside {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 120px;
+    width: 250px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
