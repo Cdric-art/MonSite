@@ -362,7 +362,7 @@ aside {
     content: '';
     display: block;
     position: absolute;
-    width: 280px;
+    width: 260px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -377,7 +377,7 @@ aside {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 280px;
+    width: 260px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
@@ -536,7 +536,7 @@ aside {
     content: '';
     display: block;
     position: absolute;
-    width: 160px;
+    width: 250px;
     height: 21px;
     background: #999;
     border-radius: 12px;
@@ -551,7 +551,7 @@ aside {
     content: '|||||||||||||';
     display: block;
     position: absolute;
-    width: 160px;
+    width: 250px;
     height: 21px;
     overflow: hidden;
     border-radius: 12px;
