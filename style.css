@@ -804,6 +804,11 @@ aside {
     max-width: 850px;
 }
 
+.whire-icon {
+    height: 80px;
+    width: 80px;
+}
+
 .social-icon:hover {
     transform: scale(1.3);
     transition: .5s;
